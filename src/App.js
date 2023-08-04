@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="mt-5 ">
+    <div className="mt-5 container">
       <div>
         <div>
           <table>
