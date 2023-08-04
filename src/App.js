@@ -10,6 +10,7 @@ function App() {
               <tr>
                 <th>#</th>
                 <th>Description</th>
+
                 <th>Assigned</th>
               </tr>
             </thead>
