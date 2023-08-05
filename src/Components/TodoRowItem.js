@@ -1,13 +1,9 @@
-function TodoRowItem() {
-  const rowNumber = 1;
-  const rowDescription = "learn react";
-  const rowAssigned = "Himanshu Maheshwari";
-
+function TodoRowItem(props) {
   return (
-    <tr>
-      <th scope="row">{rowNumber}</th>
-      <td>{rowDescription}</td>
-      <td>{rowAssigned}</td>
+    <tr onClick={() => props.deleteTodo(props.rowNumber)}>
+      <th scope="row">{props.rowNumber}</th>
+      <td>{props.rowDescription}</td>
+      <td>{props.rowAssigned}</td>
     </tr>
   );
 }
